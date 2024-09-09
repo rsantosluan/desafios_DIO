@@ -46,7 +46,8 @@ while True:
                     print("Operação falhou! O valor do saque excede o limite.(Insira o valor 'Q' Caso queira voltar ao Menu Principal)")
 
                 elif num_saques >= LIMITE_SAQUES:
-                    print("Operação falhou! Número máximo de saques excedido.(Insira o valor 'Q' Caso queira voltar ao Menu Principal)")
+                    print("Número máximo de saques excedido!")
+                    break
                     
                 elif valor > saldo:
                     print("Operação falhou! Você não tem saldo suficiente.(Insira o valor 'Q' Caso queira voltar ao Menu Principal)")                    
